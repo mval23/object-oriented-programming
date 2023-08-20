@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../2023-01 Programación Orientada a Objetos/.idea/2023-01 Programación Orientada a Objetos.iml" filepath="$PROJECT_DIR$/../../2023-01 Programación Orientada a Objetos/.idea/2023-01 Programación Orientada a Objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Taller2_Python.iml" filepath="$PROJECT_DIR$/.idea/Taller2_Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../taller-2-python-mval23/.idea/taller-2-python-mval23.iml" filepath="$PROJECT_DIR$/../../taller-2-python-mval23/.idea/taller-2-python-mval23.iml" />
+    </modules>
+  </component>
+</project>

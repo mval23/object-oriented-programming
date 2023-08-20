@@ -1,0 +1,194 @@
+a) ¿Cuántas clases se están definiendo en este ejercicio?
+
+
+
+
+b) ¿En cuál clase se define el programa principal? Corra el programa principal.
+
+
+
+
+c) ¿Cuántos objetos de la clase Animal se están creando en la clase que define el programa principal?
+
+
+
+
+d) ¿Cuáles objetos se están creando de la clase Animal en la clase que define el programa principal?
+
+
+
+
+e) ¿Cuáles atributos tiene la clase Animal?
+
+
+
+
+f) ¿Cuáles atributos de la clase Animal están haciendo referencia a tipos primitivos?
+
+
+
+
+g) ¿Cuáles atributos de la clase Animal están haciendo referencia a objetos?
+
+
+
+
+h) ¿Con qué valor se inicializa el atributo pareja de la clase Animal?
+
+
+
+
+i) ¿Cuál es el nombre que tienen los objetos animal1 y animal2 antes de la línea 7 en la clase FamiliaAnimales?
+
+
+
+
+
+
+
+j) ¿Cuál es el peso de animal1 en la clase FamiliaAnimal?
+
+
+
+
+k) Dibuje el estado de memoria luego de establecer como pareja del caballo a la cebra y
+viceversa.
+
+
+
+
+l) ¿Cuál es el género del animal2 en la clase FamiliaAnimales?
+
+
+
+
+m) Qué sucede si...
+- ...se comenta la línea 15 de la clase FamiliaAnimales
+- ...se comenta la línea 16 de la clase FamiliaAnimales
+- ...se comentan las líneas 15 y 16 de la clase FamiliaAnimales
+
+
+
+
+
+
+
+
+
+
+n) ¿En el contexto de cuál objeto se está ejecutando el método procrear cuando es invocado en la línea 18 de la clase FamiliaAnimales?
+
+
+
+
+o) ¿Qué sucede si al atributo pareja de la clase Animal se le coloca el modificador final?
+
+
+
+
+p) ¿Se puede eliminar el modificador static del método morir de la clase Animal sin que se afecte el funcionamiento del programa?
+
+
+
+
+
+
+
+q) ¿Qué sucede si modifica la línea 3 de la clase Animal como se indica a continuación?
+
+Linea original: String genero = "M";
+Nueva linea: static final String genero = "M";
+
+
+
+
+
+
+
+r) ¿Por qué no es necesario asignarle el valor inicial al atributo totalAnimales de la clase
+Animal? Explique.
+
+
+
+
+s) ¿Por qué razón, si se reemplaza la línea 28 de la clase FamiliaAnimales por la línea
+indicada a continuación, el resultado se mantiene igual?
+
+Linea original: System.out.println("Nuevo total de animales: " + Animal.totalAnimales);
+Nueva linea: System.out.println("Nuevo total de animales: " + animal1.totalAnimales);
+
+
+
+
+
+t) ¿Por qué razón, no se afecta el resultado, si se reemplaza la línea 27 de la clase
+FamiliaAnimales por la indicada a continuación?
+
+Linea original: Animal.morir(animal2);
+Nueva linea: animal1.morir(animal2);
+
+u) ¿Cuántos métodos tiene la clase Animal?
+
+
+
+
+
+
+v) ¿Cuál es el tipo de retorno de los métodos procrear() y tenerHijo() de la clase
+Animal?
+
+
+
+
+w) ¿Al método setPareja() de la clase Animal se le está pasando el parámetro por valor o por referencia?
+
+
+
+
+x) ¿A quién está haciendo referencia la variable this de la línea 29 de la clase Animal cuandose ejecuta el programa principal? ¿Podría omitirse el uso de la variable this en este caso?
+
+
+
+
+y) ¿Por qué no se afecta la ejecución del programa si se reemplaza la línea 38 de la clase Animal por la indicada a continuación?
+
+
+Linea orinal: System.out.println(nombre + " y " + pareja.nombre + " van a tener un hijo");
+Nueva linea: System.out.println(this.nombre + " y " + this.pareja.nombre + " van a tener un hijo");
+
+
+
+
+z) ¿Podría eliminarse el modificador static del método morir() de la clase Animal sin
+que se afecte el programa?
+
+
+	
+
+aa) ¿A quién hace referencia la variable this de las líneas 44 y 46 de la clase Animal cuando se ejecuta el programa principal? ¿Por qué es necesario?
+
+
+
+
+
+
+bb) Modifique el método imprimir de la clase Familia para que sea un método de clase.
+
+
+
+
+cc) ¿Por qué razón es útil que el atributo totalAnimales sea un atributo de clase y no un atributo de ejemplar?
+
+
+
+
+dd) ¿Se puede colocar el modificador static al método tenerHijo() de la clase Animal sin que se afecte el funcionamiento del programa? Explique.
+
+
+
+
+ee) ¿Qué hace el método toString() de la línea 59 de la clase Animal?
+
+
+
+

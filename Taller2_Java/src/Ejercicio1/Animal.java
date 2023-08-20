@@ -54,7 +54,7 @@ public class Animal {
         return f;
     }
 
-    static void morir(Animal animal) {
+    void morir(Animal animal) {
         System.out.println(animal.nombre + " ha muerto");
         --totalAnimales;
     }

@@ -25,7 +25,7 @@ public class FamiliaAnimales {
             System.out.println("No se pudo formar familia");
         }
         System.out.println("Total de animales: " + Animal.totalAnimales);
-        Animal.morir(animal2);
+        animal2.morir(animal2);
         System.out.println("Nuevo total de animales: " + Animal.totalAnimales);
     }
 }

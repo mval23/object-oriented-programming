@@ -1,7 +1,6 @@
 package objtaller3;
 
-import compras.OrdenCompra;
-import compras.Producto;
+import compras.*;
 import gestionHumana.Empleado;
 import java.util.ArrayList;
 
